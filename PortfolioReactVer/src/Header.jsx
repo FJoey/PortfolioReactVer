@@ -2,8 +2,8 @@
 
 function Header(){
     return (
-        <header>
-            <h1>Header</h1>
+        <header className="header-container">
+            <h1 className="header-text"></h1>
         </header>
     );
 }

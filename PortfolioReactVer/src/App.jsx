@@ -1,14 +1,11 @@
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Page from "./Page";
+
 
 function App() {
  
   return (
     <>
-      <Header />
-      <Navbar />
-      <Footer />
+      <Page />
     </>
   );
 }
