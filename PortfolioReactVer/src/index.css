@@ -1,5 +1,10 @@
 body{
+    background-image: url(assets/sky-with-stars.jpg);
+    background-size: cover;
     background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
     height: 100%;
 }
 
@@ -27,7 +32,7 @@ body{
     width: 90%;
     max-width: 600px;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.622);
+    background-color: rgba(0, 0, 0, 0.047);
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.504);
     backdrop-filter: blur(10px);
@@ -52,6 +57,7 @@ nav a{
 nav a:hover{
     background-color: rgba(116, 116, 116, 0.622);
     transition: 0.35s ease;
+    cursor: pointer;
 }
 
 .body-container {
@@ -62,15 +68,86 @@ nav a:hover{
 }
 
 .content-container{
-    color: white;
-    font-family: Arial, sans-serif;
     width: 50%;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.504);
 }
 
 .footer-container{
     color: white;
     font-family: Arial, sans-serif;
     font-size: 12px;
+}
+
+.bio{
+    width: 100%;
+}
+
+.bio-text{
+    font-size: 12px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.bio-media{
+    display: flex;
+    flex: row;
+}
+
+.bio-me{
+    width: 80%;
+}
+
+.logo-container{
+    display: flex;
+    flex: row;
+    width: 75%;
+}
+
+.logo-container img:hover{
+    background-color: rgba(116, 116, 116, 0.622);
+    transition: 0.35s ease;
+    cursor: pointer;
+}
+
+.linked-in-logo{
+    padding: 10px;
+    width: 40%;
+}
+
+.itch-io-logo{
+    padding: 10px;
+    width: 40%;
+}
+
+.github-logo{
+    padding: 10px;
+    width: 25%;
+    flex-shrink: 0;
+}
+
+.language-container{
+    display: flex;
+    flex: row;
+    width: 18%;
+    padding: 6px;
+}
+
+.c-sharp-logo{
+    padding: 3px;
+    width: 100%;
+}
+
+.java-logo{
+    padding: 3px;
+    width: 100%;
+}
+
+.blazor-logo{
+    padding: 3px;
+    width: 100%;
+}
+
+.unity-logo{
+    padding: 3px;
+    width: 100%;
 }
