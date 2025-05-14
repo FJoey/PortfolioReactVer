@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Body from "./Body";
+import Body from "./HomePage";
 
 function Page(){
 

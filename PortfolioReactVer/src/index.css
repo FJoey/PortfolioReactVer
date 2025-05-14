@@ -14,7 +14,6 @@ body{
     background-size: 600px 200px;
     background-position: top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 90px;
     width: 100%;
     border-bottom: 2px solid rgb(181, 126, 0);
