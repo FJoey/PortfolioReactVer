@@ -4,7 +4,7 @@ function BioMedia(){
 
     return(
         <>
-            <div className='bio-media'>
+            <div>
                 <img src={beastPlaceholder} className='bio-me'></img>
             </div>
         </>

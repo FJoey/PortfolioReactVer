@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       path: "/interactivesection",
       element: <Page_InteractiveSection />,
     }
-  ]);
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

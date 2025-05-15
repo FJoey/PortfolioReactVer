@@ -9,9 +9,7 @@ import unityLogo from './assets/unity-logo.png'
 function Bio(){
     return(
         <>
-            <div className='bio'>
-
-
+            <div>
                 <div className='logo-container'>
                     <img className='itch-io-logo' src={itchIoLogo}></img>
                     <img className='linked-in-logo' src={linkedInLogo}></img>

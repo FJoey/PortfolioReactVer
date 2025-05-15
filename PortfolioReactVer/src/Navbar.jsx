@@ -1,14 +1,13 @@
-
+import {Link} from "react-router-dom";
 
 function Navbar(){
 
     return(
         <>
             <nav>
-
-                    <a href="/"> J.M. Harrington</a>
-                    <a href="/portfoliocollection"> Portfolio Collection</a>
-                    <a href="/interactivesection"> Interactive Section</a>
+                    <Link to="/"> J.M. Harrington</Link>
+                    <Link to="/portfoliocollection"> Portfolio Collection</Link>
+                    <Link to="/interactivesection"> Interactive Section</Link>
             </nav>
         </>
     );
