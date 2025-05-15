@@ -95,13 +95,13 @@ nav a:hover{
 }
 
 .content-image-mask {
-    width: auto;         /* or 300px, etc. */
-    height: 100%;        /* % of parent container */
+    width: auto;
+    height: 100%;
     overflow: hidden;
 }
   
 .content-image-mask img {
-    width: auto;        /* or 100%, depending on your needs */
+    width: auto;
     height: auto;
 }
 
