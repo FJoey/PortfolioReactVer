@@ -6,9 +6,9 @@ function Navbar(){
         <>
             <nav>
 
-                    <a href="#"> J.M. Harrington</a>
-                    <a href="#"> Portfolio Collection</a>
-                    <a href="#"> Interactive Section</a>
+                    <a href="/"> J.M. Harrington</a>
+                    <a href="/portfoliocollection"> Portfolio Collection</a>
+                    <a href="/interactivesection"> Interactive Section</a>
             </nav>
         </>
     );
