@@ -1,13 +1,19 @@
 import MainLayout from "./MainLayout";
+import Card from "./Card"
 
 function Page_InteractiveSection(){
 
     return(
 
         <MainLayout>
-            <h1>Interactive Section</h1>
+            <div className="card-container">
 
+                <Card />
+                <Card />
+                <Card />
+                <Card />
 
+            </div>
         </MainLayout>
 
     );

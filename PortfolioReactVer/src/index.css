@@ -66,6 +66,33 @@ nav a:hover{
     flex-direction: row;
 }
 
+.card{
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid rgb(181, 126, 0);
+}
+
+.card:hover{
+    background-color: rgba(116, 116, 116, 0.622);
+    transition: 0.35s ease;
+    cursor: pointer;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    border: 1px white;
+}
+
 .content-container{
     width: 45%;
     padding: 10px;
@@ -73,7 +100,6 @@ nav a:hover{
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-    gap: 1px;
 }
 
 .content-link {
